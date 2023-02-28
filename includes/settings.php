@@ -52,7 +52,7 @@ function change_sender_id_settings_page() {
                </tbody>
            </table>
            <?php submit_button( __( 'Save', 'change-sender-id' ), 'save-btn', 'change_sender_id_save_settings' ); ?>
-           <p class="copyright">Made by: <a href="https://upperloftcreations.com" target="_blank" class="copyright">Upperloft Creations</a></p>
+           <p class="copyright">Made by: <a href="https://github.com/skylarng89" target="_blank" class="copyright">Patrick Aziken</a></p>
        </form>
    </div>
    <?php

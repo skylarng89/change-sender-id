@@ -4,8 +4,8 @@ Description: A plugin to change the sender name and sender email of a WordPress 
 Version: 1.0.0
 Author: Patrick Aziken
 Author URI: https://github.com/skylarng89
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: change-sender-id
 Domain Path: /languages
 

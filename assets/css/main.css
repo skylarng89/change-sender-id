@@ -1,4 +1,4 @@
-.button.save-btn {
+.button.csid-save-btn {
     width: 150px;
     height: 45px;
     font-weight: 600;
@@ -10,12 +10,12 @@
     float: right;
 }
 
-.button.save-btn:hover {
+.button.csid-save-btn:hover {
     background-color: #860043;
     color: #ffffff;
 }
 
-#wrapper {
+#csid-wrapper {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -28,28 +28,28 @@
     font-size: 1.1em;
 }
 
-#wrapper h1 {
+#csid-wrapper h1 {
     margin-bottom: 1rem;
 }
 
-#wrapper form {
+#csid-wrapper form {
     display: flex;
     flex-direction: column;
 }
 
-#wrapper form th {
+#csid-wrapper form th {
     display: flex;
     justify-content: flex-start;
 }
 
-#wrapper form tr {
+#csid-wrapper form tr {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 1rem;
 }
 
-.copyright {
+.csid-copyright {
     font-size: 0.8em;
     color: #3a3a3a;
     margin-top: 0.5rem;
@@ -58,11 +58,11 @@
 
 /* Media queries */
 @media only screen and (max-width: 600px) {
-    #wrapper form tr {
+    #csid-wrapper form tr {
         flex-direction: column;
     }
 
-    #wrapper {
+    #csid-wrapper {
         max-width: 400px;
     }
 }

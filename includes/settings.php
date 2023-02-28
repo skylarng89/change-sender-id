@@ -27,7 +27,7 @@ function change_sender_id_settings_page() {
    $sender_name = get_option( 'custom_name' );
    $sender_email = get_option( 'custom_email' );
    ?>
-   <div id="wrapper">
+   <div id="csid-wrapper">
        <h1><?php _e( 'Change Sender ID Settings', 'change-sender-id' ); ?></h1>
        <form method="post">
            <?php wp_nonce_field( 'change_sender_id_save_settings' ); ?>
@@ -38,7 +38,7 @@ function change_sender_id_settings_page() {
                         <label for="custom_name"><?php _e( 'Sender Name', 'change-sender-id' ); ?></label>
                        </th>
                        <td>
-                        <input type="text" id="custom_name" name="custom_name" value="<?php echo esc_attr( $sender_name ); ?>" class="regular-text">
+                        <input type="text" id="custom_name" name="custom_name" value="<?php echo esc_attr( $sender_name ); ?>" class="csid-input-txt">
                        </td>
                    </tr>
                    <tr>
@@ -46,13 +46,13 @@ function change_sender_id_settings_page() {
                         <label for="custom_email"><?php _e( 'Sender Email Address', 'change-sender-id' ); ?></label>
                        </th>
                        <td>
-                        <input type="email" id="custom_email" name="custom_email" value="<?php echo esc_attr( $sender_email ); ?>" class="regular-text">
+                        <input type="email" id="custom_email" name="custom_email" value="<?php echo esc_attr( $sender_email ); ?>" class="csid-input-txt">
                        </td>
                    </tr>
                </tbody>
            </table>
-           <?php submit_button( __( 'Save', 'change-sender-id' ), 'save-btn', 'change_sender_id_save_settings' ); ?>
-           <p class="copyright">Made by: <a href="https://github.com/skylarng89" target="_blank" class="copyright">Patrick Aziken</a></p>
+           <?php submit_button( __( 'Save', 'change-sender-id' ), 'csid-save-btn', 'change_sender_id_save_settings' ); ?>
+           <p class="csid-copyright">Made by: <a href="https://github.com/skylarng89" target="_blank" class="csid-copyright">Patrick Aziken</a></p>
        </form>
    </div>
    <?php

@@ -10,6 +10,8 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: change-sender-id
  * Domain Path: /languages
+ * Tested up to: 6.1
+ * Stable tag: 1.0.0
 */
 
 

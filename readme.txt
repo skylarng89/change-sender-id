@@ -14,6 +14,8 @@ Stable tag: 1.0.1
 Requires at least: 5.0
 Requires PHP: 7.4
 
+Change the default WordPress sender name and email to your own for more personalized outgoing emails.
+
 == Overview ==
 This plugin allows you to change the default sender name and sender email of your WordPress website to a more personalised value. Make your website visitors know it is you sending the emails.
 
